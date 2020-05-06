@@ -14,7 +14,7 @@ LearnosityAmd.define(['underscore-v1.5.2'], function (_) {
         },
 
         score: function () {
-            return this.isValid() ? this.maxScore() : 0;
+            return this.isValid() ? {"ankush": 10} : {"ankush": 0};
         },
 
         maxScore: function () {
